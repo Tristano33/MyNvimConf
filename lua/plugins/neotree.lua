@@ -10,15 +10,19 @@ return {
     config = function()
       require("neo-tree").setup({
         window = {
-          width = 30,
+          width = 35, -- Un poco más ancho para trabajar cómodos
+          mappings = {
+            ["?"] = "show_help", -- Si presionas '?' te muestra TODOS los comandos en pantalla
+          },
         },
         filesystem = {
           filtered_items = {
-            visible = true,
+            visible = true, -- Muestra archivos ocultos/dotfiles
           },
           follow_current_file = {
-            enabled = true,
+            enabled = true, -- Enfoca automáticamente el archivo que tienes abierto en el editor
           },
+          use_libuv_file_watcher = true, -- Auto-refresca la barra si creas archivos por fuera (ej. con la consola)
         },
       })
     end,
