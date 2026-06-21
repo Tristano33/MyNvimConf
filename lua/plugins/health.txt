@@ -1,0 +1,3 @@
+Treesitter no disponible aún. Abre Neovim normalmente y ejecuta :Lazy
+Treesitter-textobjects no disponible aún. Abre Neovim normalmente.
+checkhealth:   8% checking lazycheckhealth:  16% checking lspconfigcheckhealth:  25% checking luasnipcheckhealth:  33% checking masoncheckhealth:  41% checking mason-lspconfigcheckhealth:  50% checking nvim-treesittercheckhealth:  58% checking vim.deprecatedcheckhealth:  66% checking vim.healthcheckhealth:  75% checking vim.lspcheckhealth:  83% checking vim.packcheckhealth:  91% checking vim.providercheckhealth: 100% checking vim.treesittercheckhealth: checks done
